@@ -1,3 +1,7 @@
+* {
+  padding: 5px;
+}
+
 @font-face {
   font-family: 'starwars';
   src: url('Starwars.ttf') format('truetype');
@@ -11,7 +15,6 @@
 
 .header-img {
   border:2px solid green;
-  padding: 10px;
   border-radius: 5%;
   box-shadow: 10px 10px 10px green;
 }
@@ -27,7 +30,6 @@
   width: 60%;
   height: auto;
   margin: 40px;
-  padding: 20px;
   border: 6px dashed black;
   border-radius: 8px;
   background-color: beige;
@@ -112,6 +114,11 @@ body {
     border-radius: 10px;
     border: 4px double #008000;
     box-shadow: -10px 10px 10px green;
+  }
+
+  .text p {
+    text-align: justify;
+    text-indent: 2em;
   }
 
   .div-reparto {
